@@ -1,0 +1,145 @@
+header h1{
+    font-size: 80px;
+   text-align: center;
+    transform: translateY(-230px);
+    position: relative;
+     margin-bottom: -230px;
+   
+}
+header img{
+    width: 250px;
+    height:200px;
+    margin-bottom: 25px;
+    
+}
+
+.head{
+   
+    display: flex;
+    gap:60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #E5E4E2;
+    border-width: 5px;
+   
+}
+.head a{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  cursor:pointer;
+}
+.head{
+    height: 65px;
+    background-color: #ADD8E6;
+ 
+
+}
+.head a:hover{
+    color: #E5E4E2;
+}
+body{
+    background-image: linear-gradient(#87CEEB,ivory);
+     min-height: 100vh;
+}
+html, body {
+    margin: 0;
+}
+footer{
+     background-color: #ADD8E6;
+     position: relative;
+     top: 10px;
+     padding-bottom: 10px;
+}
+.phone img{
+    width:60px;
+    height: 60px;
+}
+.ptx{
+    margin-left: 60px;
+    margin-top: -66px;
+}
+.ptx p{
+    font-size: 18px;
+    font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.mail img{
+    width:40px;
+    height: 40px;
+    margin-left: 9px;
+}
+.etext{
+    margin-left: 60px;
+    margin-top: -39px;
+}
+.etext a{
+    font-size: 18px;
+      font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.etext a:hover{
+    color:#E5E4E2;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.foot a{
+    line-height: 1.8;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.foot a:hover{
+    color: #E5E4E2;
+}
+.copy img{
+    width:15px;
+    height: 15px;
+    margin-left:10px;
+    position: relative;
+    top:60px;
+}
+
+
+.ctxt{
+    margin-left: 32px;
+     position: relative;
+    top:23px;
+    
+}
+footer::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;              
+  width: 100%;
+  bottom: 60px;
+  height: 1px;
+  background-color: rgba(31,41,51,0.25);
+}
+footer::before{
+  top: 83%;
+ 
+}
+.site {
+    margin-left: 1000px;
+    margin-top: -100px;
+   
+}
+.site p{
+    font-size: 15px;
+    font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.site a:hover{
+    color:  #E5E4E2;
+}

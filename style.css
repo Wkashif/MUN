@@ -1,0 +1,219 @@
+header h1{
+    font-size: 80px;
+   
+    transform: translateY(-230px);
+    position: relative;
+     margin-bottom: -230px;
+     text-align: center;
+   
+}
+header img{
+    width: 250px;
+    height:200px;
+    margin-bottom: 25px;
+}
+
+.head{
+   
+   
+    display: flex;
+    gap:60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #7393B3;
+    
+   
+}
+.head a{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  cursor:pointer;
+}
+.head{
+    height: 65px;
+    background-color: #ADD8E6;
+ 
+
+}
+html, body {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    
+   
+}
+.head a:hover{
+    color: #E5E4E2;
+}
+
+
+.content{
+    width: 800px;
+    margin-left: 530px;
+
+   background: rgba(255, 255, 245, 0.85);
+   padding: 15px 17px;
+   border-radius: 16px;
+   box-shadow: 0px 12px 30px grey;
+   margin-top: -250px;
+}
+.content p{
+  line-height: 1.7;
+  font-size: 22px;
+   font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  opacity: 0;
+   transform: translateY(40px);
+  animation: fadeonly 1.2s ease forwards;
+  animation-delay: 0.6s;
+ 
+}
+@keyframes fadeonly{
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.im img{
+    
+    height: 350px;
+    width: 400px;
+   position: relative;
+   top: 155px;
+    margin-left: 100px;
+   border-radius: 18px;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.14);
+
+}
+.im{
+    opacity: 0;
+    transform: translateY(40px);
+    animation: comeup 1.2s ease forwards;
+    animation-delay: 0.6s;
+}
+@keyframes comeup{
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+footer{
+     background-color: #ADD8E6;
+     position: relative;
+     top: 10px;
+     padding-bottom: 10px;
+}
+.phone img{
+    width:60px;
+    height: 60px;
+}
+.ptx{
+    margin-left: 60px;
+    margin-top: -66px;
+}
+.ptx p{
+    font-size: 18px;
+      font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.mail img{
+    width:40px;
+    height: 40px;
+    margin-left: 9px;
+}
+.etext{
+    margin-left: 60px;
+    margin-top: -39px;
+}
+.etext a{
+    font-size: 18px;
+       font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.etext a:hover{
+    color:#E5E4E2;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.foot a{
+    line-height: 1.8;
+      font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.foot a:hover{
+    color: #E5E4E2;
+}
+.copy img{
+    width:15px;
+    height: 15px;
+    margin-left:10px;
+    position: relative;
+    top:60px;
+}
+
+
+.ctxt{
+    margin-left: 32px;
+     position: relative;
+    top:23px;
+    
+}
+footer::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;              
+  width: 100%;
+  bottom: 60px;
+  height: 1px;
+  background-color: rgba(31,41,51,0.25);
+}
+footer::before{
+  top: 83%;
+ 
+}
+.site {
+    margin-left: 1000px;
+    margin-top: -100px;
+   
+}
+.site p{
+    font-size: 15px;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.site a:hover{
+    color:  #E5E4E2;
+}
+.container{
+  background-image:
+   linear-gradient(
+      rgba(245, 245, 245, 0.1),
+      rgba(245, 245, 245, 0.1)
+    ),
+    url("images/mun.jpg");
+   
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  
+ 
+}

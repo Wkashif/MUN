@@ -1,0 +1,333 @@
+header h1{
+    font-size: 80px;
+   text-align: center;
+    transform: translateY(-230px);
+    position: relative;
+     margin-bottom: -230px;
+   
+}
+header img{
+    width: 250px;
+    height:200px;
+    margin-bottom: 25px;
+   
+   
+    
+}
+
+.head{
+   
+    display: flex;
+    gap:60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #E5E4E2;
+    border-width: 5px;
+   
+}
+.head a{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  cursor:pointer;
+}
+.head{
+    height: 65px;
+    background-color: #ADD8E6;
+ 
+
+}
+.head a:hover{
+    color: #E5E4E2;
+}
+body{
+    background-image: linear-gradient(#87CEEB,ivory);
+     min-height: 100vh;
+
+}
+html, body {
+    margin: 0;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    font-weight: 700;
+    text-decoration:underline;
+}
+.p1 img{
+   width: 350px;
+   height: 310px;
+   border-radius: 3px;
+    
+  
+}
+.p1a img{
+    width: 340px;
+    height: 370px;
+    position: relative;
+    top: 315px;
+    filter: drop-shadow(0px 3px 20px black);
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slide1 2.0s ease forwards;
+}
+@keyframes slide1{
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.n1 p{
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-size: 25px;
+ font-weight: 500;
+ color: #2c3e50;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide2 2.0s ease forwards;
+}
+ @keyframes slide2{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+
+.j1 p{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide3 2.0s ease forwards;
+}
+ @keyframes slide3{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+
+
+.p2a img{
+    width: 450px;
+    height: 370px;
+    position: relative;
+    top: 315.5px;
+    filter: drop-shadow(0px 3px 20px black);
+    margin-right: 20px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slide1 2.0s ease forwards;
+}
+.peachbg img{
+      width: 350px;
+   height: 312px;
+   border-radius: 3px;
+}
+.peachbg{
+    margin-left: 45px;
+}
+.n2 p{
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-size: 25px;
+ font-weight: 500;
+ color: #2c3e50;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide2 2.0s ease forwards;
+}
+ @keyframes slide2{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+
+.j2 p{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide3 2.0s ease forwards;
+}
+ @keyframes slide3{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+.ybg img{
+   width: 350px;
+   height: 312px;
+   border-radius: 3px;
+  /*margin-left: 90px;*/
+}
+.p3a img{
+  width: 550px;
+    height: 350px;
+    position: relative;
+    top: 316px;
+    filter: drop-shadow(0px 3px 20px black);
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slide1 2.0s ease forwards;
+    right: 18%;
+    
+}
+.p3{
+    margin-top: 20px;
+}
+.n3 p{
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-size: 25px;
+ font-weight: 500;
+ color: #2c3e50;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide2 2.0s ease forwards;
+}
+ @keyframes slide2{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+
+.j3 p{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  opacity: 0;
+    transform: translateX(-40px);
+    animation: slide3 2.0s ease forwards;
+}
+ @keyframes slide3{
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+ }
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin-top: -300px;
+    gap: 60px;
+    padding-left: 100px;
+}
+
+
+
+
+
+
+
+/*--------*/
+/*footer{
+     background-color: #ADD8E6;
+     position: relative;
+    
+     padding-bottom: 10px;
+}
+.phone img{
+    width:60px;
+    height: 60px;
+}
+.ptx{
+    margin-left: 60px;
+    margin-top: -66px;
+}
+.ptx p{
+    font-size: 18px;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.mail img{
+    width:40px;
+    height: 40px;
+    margin-left: 9px;
+}
+.etext{
+    margin-left: 60px;
+    margin-top: -39px;
+}
+.etext a{
+    font-size: 18px;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.etext a:hover{
+    color:#E5E4E2;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.foot a{
+    line-height: 1.8;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.foot a:hover{
+    color: #E5E4E2;
+}
+.copy img{
+    width:15px;
+    height: 15px;
+    margin-left:10px;
+    position: relative;
+    top:60px;
+}
+
+
+.ctxt{
+    margin-left: 32px;
+     position: relative;
+    top:23px;
+    
+}
+footer::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;              
+  width: 100%;
+  bottom: 60px;
+  height: 1px;
+  background-color: rgba(31,41,51,0.25);
+}
+footer::before{
+  top: 83%;
+ 
+}
+.site {
+    margin-left: 1000px;
+    margin-top: -100px;
+   
+}
+.site p{
+    font-size: 15px;
+     font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+}
+.site a:hover{
+    color:  #E5E4E2;
+}
